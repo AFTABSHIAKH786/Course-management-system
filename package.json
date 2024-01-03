@@ -1,0 +1,16 @@
+{
+  "name": "ccms",
+  "version": "1.0.0",
+  "description": "credit course management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "Aftab Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "nodemon": "^2.0.22"
+  }
+}

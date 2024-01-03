@@ -1,0 +1,253 @@
+body {
+    background-color: antiquewhite;
+}
+
+.app{
+    position: relative;
+}
+
+
+.newlogin{
+    margin-top: 30px;    
+}
+.reg_btn{
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+}
+
+/* navbar styles */
+.navbar{
+    padding: none;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.student{
+    margin: 0 10px 0 10px;
+}
+
+.courses{
+    width: 30%;
+    padding: 20px;
+}
+
+.student_edit{
+    height: 10%;
+    width: 100%;
+}
+
+.nav-item{
+    margin-left: 20px;
+    background-color: inherit;
+    color: rgb(253, 253, 253);
+    padding: 10px;
+    transition: all .2s ease;
+    box-shadow: 2px 2px black;
+}
+
+.nav-item:hover{
+    transform: translateY(-2px);
+}
+
+.nav-item:active{
+    transform: translateY(2px);
+}
+
+th{
+    align-content: center;
+}
+
+li{
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* Login page styles */
+
+.login_page{
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+}
+
+.login_fix{
+    width: 40%;
+}
+
+.login_page_heading{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-size: 1rem;
+}
+
+input{
+    margin-top: 2rem;
+}
+
+input:hover{
+    border: 2px solid black;
+}
+
+
+.login_button{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+select{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Dashoboard */
+
+.dashboard{
+    font-size: 20px;
+    background-color: rgb(155, 126, 126);
+    padding: 30px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+.enter_course{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+.enter_course:hover{
+    transform: translateY(-5px);
+    border-radius: 10px;
+}
+
+.enter_course:active{
+    transform: translateY(3px);
+}
+
+/* faculty log styles */
+
+.faculty_log{
+    padding: 20px;
+}
+
+.faculty_log_submit_btn{
+    margin-top: 15%;
+    width: 100%;
+}
+
+.report_button{
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.report_button:hover{
+    transform: translateY(-5px);
+    border-radius: 10px;
+}
+
+.report_button:active{
+    transform: translateY(3px);
+}
+
+.report_screen{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.report_create{
+    width: 40%;
+}
+
+.attendance{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0 10px 0;
+}
+
+.item{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+}
+.item1{
+    text-decoration: underline;
+    font-size: 35px;
+    color: aquamarine;
+    background-color: black;
+    padding: 10px;
+}
+
+.report_status_ok{
+    background-color: green;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.report_status_wrong{
+    background-color: red;
+
+    text-align: center;
+    border: 1px solid white;
+}
+
+.dash{
+    text-transform: uppercase;
+    background-color: rgb(207, 218, 218);
+    margin: 0 25% 0 25%;
+    padding: 10px 20px 10px 0;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+    text-align: center;
+}
+
+.dash_p{
+    margin: 5% 0 5% 0;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+    background-color: rgb(207, 218, 218);
+    padding: 10px
+
+}
+
+.dash_2 {
+    margin: 5% 0 5% 0;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+    padding: 20px;
+    background-color: rgb(207, 218, 218);
+}
+
+.dash_link{
+    text-decoration: none;
+    padding: 7px;
+    background-color: bisque;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.dash_link:hover{
+    border-radius: 5px;
+}
+
